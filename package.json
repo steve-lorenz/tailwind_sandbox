@@ -2,14 +2,19 @@
   "name": "tailwind_sandbox",
   "private": true,
   "dependencies": {
+    "@fullhuman/postcss-purgecss": "^4.0.3",
     "@rails/actioncable": "^6.0.0",
     "@rails/activestorage": "^6.0.0",
     "@rails/ujs": "^6.0.0",
     "@rails/webpacker": "4.3.0",
+    "autoprefixer": "^10.3.3",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.8",
     "turbolinks": "^5.2.0"
   },
   "version": "0.1.0",
   "devDependencies": {
+    "@webpack-cli/serve": "^1.5.2",
     "webpack-dev-server": "^4.0.0"
   }
 }
